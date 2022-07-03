@@ -1,0 +1,39 @@
+body {
+  font-size: 15pt;
+}
+
+.calculator {
+  background: black;
+  width: 100%;
+  margin: auto;
+  height: 550px;
+  border-radius: 5px;
+}
+
+.display {
+  width: 100%;
+  background-color: darkGrey;
+  height: 20%;
+  font-size: 48px;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 5px;
+  align-items: flex-end;
+}
+
+.buttons {
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  flex-basis: 20%;
+  flex-grow: 1;
+  border-radius: 50px background-color: rgba(245, 245, 245, 0.87);
+  border: none;
+}
+
+.btn-number {
+  background-color: gray;
+}
